@@ -7,11 +7,21 @@ Because of hardware limitations the dataset used is a portion of the full datase
 
 Future implementations to consider are to use pretrained features to complement training and developing Grad Cam for visual explanations of the model decisions.
 
-# virtual enviroment instalation:
+# Virtual enviroment instalation (Windows):
 
-Create a virtual enviroment:
+Create a virtual enviroment (named '.venv'):
 
-pip install -r requirements.txt
+        python -m venv .venv
+        
+Activate .venv
+        
+        .venv\Scripts\activate
+        
+Install the packages using pip
+
+        pip install -r requirements.txt
+
+
 
 # Dataset
 The dataset used is the NIH ChestXray dataset, advaliable at:
